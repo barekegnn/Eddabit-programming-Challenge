@@ -17,15 +17,15 @@
 
 //    CODE
 
-// var num;
-// function validateNumber(num) {
-//   if (num < 0 || num == 0) {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// }
-//  console.log(validateNumber(-3));
+var num;
+function validateNumber(num) {
+  if (num < 0 || num == 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+ console.log(validateNumber(-3));
 
 // #3) Less Than 100?
 // Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
@@ -49,6 +49,7 @@
 //  else return false
 
 //  CODE
+
 let a, b;
 function checkNumber(a, b) {
   let total = a + b;
@@ -61,3 +62,23 @@ function checkNumber(a, b) {
   }
 }
 console.log(checkNumber('kebe', 45));
+
+
+// # 4) Make a function using the && operator.
+
+
+var x = "age";
+var y = "income";
+function eligibilityCheck(x, y){
+  if ((x >= 18) && (y >= 1000)){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+console.log(eligibilityCheck(29, 999));
+
+
+
+
